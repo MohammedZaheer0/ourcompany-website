@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.NavLinksHover{
+  position: relative;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+.NavLinksHover::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right,rgb(234, 144, 111),orangered);
+  transition: width 0.3s ease;
+}
+.NavLinksHover:hover::after{
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.homeHeadingTag{
+  position: relative;
+  text-decoration: underline 3px rgb(241, 104, 54);
+  text-underline-offset: 7px;
+  z-index: 10;
+  transition: all 0.7s ease;
+}
+.homeHeadingTag::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to right,rgb(234, 144, 111),rgb(255, 153, 0));
+  transition: width 0.3s ease;
+  z-index: -10;
+}
+.homeHeadingTag:hover::after{
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+
+
+.UnderlineStyle{
+  position: relative;
+  /* text-decoration: underline 3px rgb(241, 104, 54); */
+  text-underline-offset: 7px;
+  z-index: 10;
+  transition: all 0.7s ease;
+}
+.UnderlineStyle::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right,rgb(234, 144, 111),rgb(255, 153, 0));
+  transition: width 0.3s ease;
+  z-index: -10;
+}
+.UnderlineStyle:hover::after{
+  width: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
