@@ -107,7 +107,7 @@ const Footer = () => {
 
 
   return (
-    <footer>
+    <footer className='md:w-[80%] w-[90%] mx-auto'>
     <div className='w-[100%] my-24 grid grid-cols-2 justify-between items-center'>
       {/* First Div */}
       <div className=''>

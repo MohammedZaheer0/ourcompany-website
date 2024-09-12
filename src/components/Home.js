@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import FeaturedCaseStudy from './FeaturedCaseStudy';
 import HomeProjects from './HomeProjects';
 import Brands from './Brands';
-import Footer from './Footer';
 
 
 
@@ -41,7 +40,7 @@ const Home = () => {
     <Brands/>
 
 
-    <Footer/>
+    
 
     </div>
     </>

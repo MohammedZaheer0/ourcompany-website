@@ -14,6 +14,7 @@ import Products from './components/Products';
 import Websites from './components/Websites';
 import TheDailyMemphian from './components/Projects/TheDailyMemphian';
 import Clients from './components/Clients';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           
           <Route path='*' element={<PageNotFound/>}></Route>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }
