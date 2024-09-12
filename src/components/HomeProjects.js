@@ -30,7 +30,7 @@ const HomeProjects = () => {
         parentElement.removeEventListener('mousemove', handleMouseMove);
       };
     });
-  }, []);
+  }, [boxRefs, parentRefs]);
 
 
   return (
