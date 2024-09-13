@@ -129,7 +129,7 @@ const Services = () => {
         <div className='absolute transition-all lg:h-[50px] lg:w-[50px] h-[15px] w-[15px] bg-cyan-400 border-[3px] top-[0px] right-[0px] lg:top-[80px] lg:right-[120px] -z-10 transform' ref={el => divRefs.current[3] = el}></div>
         
         
-        <div className='absolute transition-all lg:h-[150px] lg:w-[150px] h-[40px] w-[40px] rounded-full border-[cyan] border-[3px] 
+        <div className='absolute transition-all lg:h-[150px] lg:w-[150px] h-[40px] w-[40px] rounded-full -z-10 border-[cyan] border-[3px] 
         top-[180px] right-[120px]' ref={el => divRefs.current[4] = el}></div>
         
         
