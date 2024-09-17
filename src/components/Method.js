@@ -217,11 +217,11 @@ const Method = () => {
   }, []);
 
   return (
-    <div className="md:w-[80%] w-[90%] mx-auto my-24">
+    <div className="md:w-[80%] w-[90%] mx-auto md:py-24">
 
-      <div className="grid md:grid-cols-2 grid-cols-1 justify-between items-center md:gap-10 relative">
+      <div className="grid md:grid-cols-2 grid-cols-1 overflow-hidden md:overflow-visible justify-between items-center md:gap-10 relative">
         
-        <div className="pt-56 md:pt-0">
+        <div className="pt-80 md:pt-0">
           <h1 className="md:my-10 my-7 font-bold text-[#898A91] tracking-widest">
             METHOD
           </h1>
@@ -240,14 +240,14 @@ const Method = () => {
           </p>
         </div>
 
-        <div className="w-[100%] bg-red-500">
+        <div className="w-[100%]">
           <div
-            className="absolute transition-all lg:top-[-120px] top-[-100px] md:top-[150px] right-2.5 lg:right-1.5 md:right-2.5 transform -translate-x-1/2 h-[75px] w-[75px] lg:h-[300px] lg:w-[300px] -z-10 md:h-[180px] md:w-[180px] rounded-full border-[#dddbdb]  border-[2px]"
+            className="absolute transition-all lg:top-[-120px] top-[0px] md:top-[150px] right-2.5 lg:right-1.5 md:right-2.5 transform -translate-x-1/2 h-[75px] w-[75px] lg:h-[300px] lg:w-[300px] -z-10 md:h-[180px] md:w-[180px] rounded-full border-[#dddbdb]  border-[2px]"
             ref={(el) => (divRefs1.current[0] = el)}
           ></div>
 
           <div
-            className="absolute transition-all h-[25px] w-[25px] bg-[lightgreen] md:top-[80px] lg:top-[-80px] top-[-110px] rotate-45 right-1/3 -z-10 transform"
+            className="absolute transition-all h-[25px] w-[25px] bg-[lightgreen] md:top-[80px] lg:top-[-80px] top-[0px] rotate-45 md:right-1/3 -z-10 transform"
             ref={(el) => (divRefs1.current[1] = el)}
           ></div>
 
@@ -260,12 +260,12 @@ const Method = () => {
             <img
               src="/assets/method-green.jpg"
               alt="method-green"
-              className="rounded-full w-[90%] absolute md:top-1/2 md:left-1/2 md:transform md:-translate-y-1/2 mx-auto md:w-[50%] lg:w-[40%] lg:right-0"
+              className="rounded-full w-[90%] absolute md:top-1/2 md:left-1/2 md:transform md:-translate-y-1/2 mx-auto md:w-[50%] lg:w-[40%] lg:right-0 top-20"
             />
           </div>
 
           <div
-            className="absolute transition-all md:h-[80px] md:w-[80px] h-[20px] w-[20px] rounded-full border-[lightgreen] border-[3px] lg:bottom-0 top-36 -z-10 md:top-3/4 lg:right-1/3 right-1/1 transform"
+            className="absolute transition-all md:h-[80px] md:w-[80px] h-[20px] w-[20px] rounded-full border-[lightgreen] border-[3px] lg:bottom-0 top-56 -z-10 md:top-3/4 lg:right-1/3 right-1/1 transform"
             ref={(el) => (divRefs1.current[3] = el)}
           ></div>
         </div>
