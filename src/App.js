@@ -15,6 +15,7 @@ import Websites from './components/Websites';
 import TheDailyMemphian from './components/Projects/TheDailyMemphian';
 import Clients from './components/Clients';
 import Footer from './components/Footer';
+import BlogDetails from './components/BlogDetails';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
 
           <Route path='/about' element={<About/>}></Route>
           <Route path='/blog' element={<Blog/>}></Route>
+          <Route path='/blog/:id' element={<BlogDetails/>}></Route>
           <Route path='/contact' element={<Contact/>}></Route>
           <Route path='/method' element={<Method/>}></Route>
           <Route path='/services' element={<Services/>}></Route>

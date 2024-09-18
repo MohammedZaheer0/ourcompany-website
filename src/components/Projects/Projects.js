@@ -71,6 +71,8 @@ const Projects = () => {
       ))}
           </div>
 
+          
+
         <div className='lg:py-10'>
           <h1 className='my-10 lg:text-5xl md:text-4xl text-3xl font-bold leading-snug md:leading-snug'>We work with nice people at world-class brands.</h1>
 
