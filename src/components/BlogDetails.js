@@ -168,7 +168,7 @@ const BlogDetails = () => {
 
       <img src={blog.image} alt={blog.title} className='w-full md:h-[60vh] object-cover rounded-lg mb-10' />
       <div className='md:w-[80%] mx-auto'>
-        {blog.extraContent.map((extracontent,index)=>(
+        {blog.extraContent.map((extracontent,index)=>(  
           <div key={index}>
             <p className='my-16 text-[20px] tracking-wide font-medium'>{extracontent}</p>
           </div>

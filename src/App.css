@@ -69,3 +69,13 @@
 .workwithpeople p{
   margin: 0 0 10px 0;
 }
+.inputborderbottom {
+  outline: none;
+  border: none;
+  border-bottom: 3px solid rgb(96, 96, 96); 
+  transition: border-bottom-color 0.3s ease;
+}
+
+.inputborderbottom:focus {
+  border-bottom-color: #db722c;
+}

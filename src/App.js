@@ -16,6 +16,7 @@ import TheDailyMemphian from './components/Projects/TheDailyMemphian';
 import Clients from './components/Clients';
 import Footer from './components/Footer';
 import BlogDetails from './components/BlogDetails';
+import Career from './components/Career';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path='/projects' element={<Projects/>}>
           <Route path='thedailymemphian' element={<TheDailyMemphian/>} />
           </Route>
+          <Route path='/career' element={<Career/>}></Route>
           
           <Route path='*' element={<PageNotFound/>}></Route>
       </Routes>

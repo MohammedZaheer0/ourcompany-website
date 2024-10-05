@@ -433,7 +433,7 @@ const About = () => {
                   </div>
 
                   <div className="">
-                  <a href="www.linkedin.com" className="font-bold text-[20px] text-[#e86832] cursor-pointer hover:text-[#76422b]" >{employee.linkedIn}</a>
+                  <a href="https://www.linkedin.com/" className="font-bold text-[20px] text-[#e86832] cursor-pointer hover:text-[#76422b]" >{employee.linkedIn}</a>
                   </div>
 
                 </div>
