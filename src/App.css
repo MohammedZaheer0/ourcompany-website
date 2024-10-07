@@ -79,3 +79,11 @@
 .inputborderbottom:focus {
   border-bottom-color: #db722c;
 }
+
+.custom-listZ{
+  color: black;
+  list-style-type: disc;
+}
+.custom-list li{
+  color: #D35400;
+}
