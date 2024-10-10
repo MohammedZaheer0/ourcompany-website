@@ -16,7 +16,7 @@ const Home = () => {
 
 
     <header className='w-[100%] md:my-24 my-10'>
-        <h1 className='lg:text-[3rem] xl:text-[4rem] md:text-[2.5rem] text-[1.7rem]  font-bold homeparentHeading'>We design <span className='homeHeadingTag' ><Link to='/products'>products</Link></span>, <span className='homeHeadingTag'><Link to='/websites'>websites</Link></span>, and <span className='homeHeadingTag'><Link to='/products'>experience</Link></span> that people love.</h1>
+        <h1 className='lg:text-[3rem] xl:text-[4rem] md:text-[2.5rem] text-[1.7rem]  font-bold homeparentHeading'>We design <span className='homeHeadingTag' ><Link to='/projects'>products</Link></span>, <span className='homeHeadingTag'><Link to='/websites'>websites</Link></span>, and <span className='homeHeadingTag'><Link to='/products'>experience</Link></span> that people love.</h1>
     </header>
     
 

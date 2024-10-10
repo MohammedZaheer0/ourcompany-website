@@ -76,7 +76,7 @@ const Projects = () => {
         <div className='lg:py-10'>
           <h1 className='my-10 lg:text-5xl md:text-4xl text-3xl font-bold leading-snug md:leading-snug'>We work with nice people at world-class brands.</h1>
 
-          <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-19 text-[20px] md:gap-10 font-bold text-[#45464a]'>
+          <div className='grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 my-28 text-[20px] md:gap-10 font-bold text-[#45464a]'>
 
           <div className='workwithpeople'>
           <p>100 Club of Memphis</p>

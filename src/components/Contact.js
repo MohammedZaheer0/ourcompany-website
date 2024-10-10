@@ -11,7 +11,7 @@ const Contact = () => {
 
                 <h1 className='md:text-4xl lg:text-6xl text-3xl font-bold mb-5'>Lets get to work.</h1>
 
-                <p className='homeparentHeading text-[#D35400] my-10 lg:text-3xl text-[1.3rem] font-bold gap-3'><span className='UnderlineStyle' ><a href='www.gmail.com' target='_blank'>hi@simplefocus.com</a></span></p>
+                <p className='homeparentHeading text-[#D35400] my-10 lg:text-3xl text-[1.3rem] font-bold gap-3'><span className='UnderlineStyle' ><span>hi@simplefocus.com</span></span></p>
 
                 <h2 className='md:text-4xl lg:text-5xl text-3xl font-bold md:my-14 my-8'>Looking for a career?</h2>
 
